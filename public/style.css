@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about{
+    display: flex;
+    height: 100vh;
+}
+
+.aboutLeft,.aboutRight{
+    flex: 1;
+}
+
+.aboutLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutRight{
+    position: relative;
+}
+
+.aboutLeftWrapper{
+    padding: 50px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name{
+    font-size: 60px;
+}
+
+.titles{
+    height: 50px;
+    overflow: hidden;
+}
+
+.titleWrapper{
+    height: 100%;
+    animation: move 3s ease-in-out infinite alternate;
+}
+
+.titleItem{
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes move {
+    50%{
+        transform: translateY(-50px);
+    }
+
+    100%{
+        transform: translateY(-100px);
+    }
+}
+
+.aboutRight{
+
+}
+
+.about-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.aboutBg{
+    background-color: #04052E;
+    width: 100%;
+    height: 100%;
+
+}
+
+.contact{
+    height: 100vh;
+    position: relative;
+}
+
+.contact-bg{
+    width: 20px;
+    height: 100%;
+    background-color: #04052E;
+    position: absolute;
+}
+
+.contact-wrapper{
+    padding: 50px;
+    display: flex;
+}
+
+.contact-left,.contact-right{
+    flex: 1;
+}
+
+.contact-left h1{
+    font-size: 60px;
+}
+
+form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.input:focus{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.sub{
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+    margin: 10px 0;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+button{
+    border: none;
+    padding: 15px;
+    background-color: #04052E;
+    color: white;
+    font-weight: 500;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.projectsGrid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.ProjectsSection{
+    padding: 1.2em;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProjectsSection button{
+    margin: 2em auto;
+    transition: 0.5s transform;
+    border-radius: 14px;
+    width: 10%;
+    text-transform: uppercase;
+}
+
+.ProjectsSection button:hover{
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 2px rgb(136, 136, 136);
+}
+
+.gird-col-span-2{
+    grid-column: span 2;
+}
+
+.Project{
+    height: 20em;
+    background-size: cover;
+    background-color: 	hsla(0, 4%, 5%, 0.993);
+    background-position: center;
+    border-radius: 14px;
+    transition: 0.3s background-color;
+    transition: 0.5s transform;
+    text-decoration: none;
+
+}
+
+
+
+.Project:hover{
+    cursor: pointer;
+    background-color: hsla(0, 4%, 5%, 0.993);
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 2px rgb(136, 136, 136);
+    padding: 40px 50px;
+    justify-content: space-around;
+}
+
+.Project:hover > h2{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.Project:hover > div{
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.hide{
+    display: none;
+}
