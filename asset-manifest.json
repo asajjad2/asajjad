@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.js": "/asajjad/static/js/main.31e82170.js",
+    "static/media/weatherApp.png": "/asajjad/static/media/weatherApp.baaeac9ad6039cddbb34.png",
+    "static/media/furnitureStore.png": "/asajjad/static/media/furnitureStore.892941e3af5579fbd0e1.png",
+    "static/media/coding.png": "/asajjad/static/media/coding.472568373a0523f00c81.png",
+    "static/media/rapido.png": "/asajjad/static/media/rapido.eca8ceb5678d5d306d53.png",
+    "static/media/shoppingList.png": "/asajjad/static/media/shoppingList.55746c32f5c83b79d1ce.png",
+    "static/media/calc.png": "/asajjad/static/media/calc.ed44b21527ea1c3fc97d.png",
+    "index.html": "/asajjad/index.html",
+    "main.31e82170.js.map": "/asajjad/static/js/main.31e82170.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.31e82170.js"
+  ]
+}
